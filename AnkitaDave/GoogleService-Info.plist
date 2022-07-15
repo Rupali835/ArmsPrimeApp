@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1094912869527-pen6tabt163d2hpoccfq94e9b5418vh8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1094912869527-pen6tabt163d2hpoccfq94e9b5418vh8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCnhmRRw5kIGSixw03M5SFFrWXfG0mfG58</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1094912869527</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ankitadaveofficial</string>
+	<key>PROJECT_ID</key>
+	<string>ankita-dave</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ankita-dave.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1094912869527:ios:cfc27aa7c059f858ffd5d2</string>
+	<key>DATABASE_URL</key>
+	<string>https://ankita-dave.firebaseio.com</string>
+</dict>
+</plist>

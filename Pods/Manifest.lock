@@ -1,0 +1,494 @@
+PODS:
+  - ActiveLabel (1.1.0)
+  - AgoraRtcEngine_iOS (3.1.0)
+  - AgoraRtm_iOS (1.3.0)
+  - Alamofire (4.9.1)
+  - Alamofire-SwiftyJSON (3.0.0):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0.0)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - AudioPlayerManager (1.2.3)
+  - Bolts/Tasks (1.9.1)
+  - Branch (0.34.0)
+  - CocoaAsyncSocket (7.6.4)
+  - CocoaLumberjack (3.6.2):
+    - CocoaLumberjack/Core (= 3.6.2)
+  - CocoaLumberjack/Core (3.6.2)
+  - CountryPickerView (3.1.3)
+  - EasyTipView (2.1.0)
+  - ExpandableLabel (0.5.2)
+  - Fabric (1.10.2)
+  - FBSDKCoreKit (5.5.0):
+    - FBSDKCoreKit/Basics (= 5.5.0)
+    - FBSDKCoreKit/Core (= 5.5.0)
+  - FBSDKCoreKit/Basics (5.5.0)
+  - FBSDKCoreKit/Core (5.5.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.5.0):
+    - FBSDKCoreKit (~> 5.0)
+  - Firebase/Core (6.30.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.7.2)
+  - Firebase/CoreOnly (6.30.0):
+    - FirebaseCore (= 6.10.0)
+  - Firebase/Crashlytics (6.30.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 4.4.0)
+  - Firebase/Database (6.30.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 6.5.0)
+  - Firebase/DynamicLinks (6.30.0):
+    - Firebase/CoreOnly
+    - FirebaseDynamicLinks (~> 4.2.1)
+  - Firebase/InAppMessagingDisplay (6.30.0):
+    - Firebase/CoreOnly
+    - FirebaseInAppMessagingDisplay (~> 0.17.0)
+  - Firebase/Messaging (6.30.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.6.1)
+  - Firebase/Performance (6.30.0):
+    - Firebase/CoreOnly
+    - FirebasePerformance (~> 3.3.0)
+  - Firebase/RemoteConfig (6.30.0):
+    - Firebase/CoreOnly
+    - FirebaseRemoteConfig (~> 4.9.0)
+  - FirebaseABTesting (4.2.0):
+    - FirebaseCore (~> 6.10)
+  - FirebaseAnalytics (6.7.2):
+    - FirebaseCore (~> 6.8)
+    - FirebaseInstallations (~> 1.4)
+    - GoogleAppMeasurement (= 6.7.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/MethodSwizzler (~> 6.7)
+    - GoogleUtilities/Network (~> 6.7)
+    - "GoogleUtilities/NSData+zlib (~> 6.7)"
+    - nanopb (~> 1.30905.0)
+  - FirebaseCore (6.10.0):
+    - FirebaseCoreDiagnostics (~> 1.3)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+  - FirebaseCoreDiagnostics (1.5.0):
+    - GoogleDataTransport (~> 7.0)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+    - nanopb (~> 1.30905.0)
+  - FirebaseCrashlytics (4.4.0):
+    - FirebaseCore (~> 6.10)
+    - FirebaseInstallations (~> 1.6)
+    - GoogleDataTransport (~> 7.2)
+    - nanopb (~> 1.30905.0)
+    - PromisesObjC (~> 1.2)
+  - FirebaseDatabase (6.5.0):
+    - FirebaseCore (~> 6.10)
+    - leveldb-library (~> 1.22)
+  - FirebaseDynamicLinks (4.2.1):
+    - FirebaseCore (~> 6.10)
+  - FirebaseInAppMessagingDisplay (0.17.0)
+  - FirebaseInstallations (1.6.0):
+    - FirebaseCore (~> 6.10)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstanceID (4.5.1):
+    - FirebaseCore (~> 6.8)
+    - FirebaseInstallations (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+  - FirebaseMessaging (4.6.1):
+    - FirebaseCore (~> 6.8)
+    - FirebaseInstanceID (~> 4.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Reachability (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebasePerformance (3.3.0):
+    - FirebaseCore (~> 6.9)
+    - FirebaseInstallations (~> 1.5)
+    - FirebaseRemoteConfig (~> 4.7)
+    - GoogleDataTransport (~> 7.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/ISASwizzler (~> 6.2)
+    - GoogleUtilities/MethodSwizzler (~> 6.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.12)
+  - FirebaseRemoteConfig (4.9.0):
+    - FirebaseABTesting (~> 4.2)
+    - FirebaseCore (~> 6.10)
+    - FirebaseInstallations (~> 1.6)
+    - GoogleUtilities/Environment (~> 6.7)
+    - "GoogleUtilities/NSData+zlib (~> 6.7)"
+  - GoogleAnalytics (3.17.0)
+  - GoogleAppMeasurement (6.7.2):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/MethodSwizzler (~> 6.7)
+    - GoogleUtilities/Network (~> 6.7)
+    - "GoogleUtilities/NSData+zlib (~> 6.7)"
+    - nanopb (~> 1.30905.0)
+  - GoogleDataTransport (7.2.0):
+    - nanopb (~> 1.30905.0)
+  - GoogleIDFASupport (3.14.0)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/Defines (2.2.2)
+  - GoogleToolboxForMac/Logger (2.2.2):
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.2)":
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - GoogleUtilities/AppDelegateSwizzler (6.7.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.7.2):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/ISASwizzler (6.7.2)
+  - GoogleUtilities/Logger (6.7.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.7.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.7.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.7.2)"
+  - GoogleUtilities/Reachability (6.7.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.7.2):
+    - GoogleUtilities/Logger
+  - GTMAppAuth (1.0.0):
+    - AppAuth/Core (~> 1.0)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.4.0):
+    - GTMSessionFetcher/Full (= 1.4.0)
+  - GTMSessionFetcher/Core (1.4.0)
+  - GTMSessionFetcher/Full (1.4.0):
+    - GTMSessionFetcher/Core (= 1.4.0)
+  - HCSStarRatingView (1.5)
+  - Instructions (1.3.1)
+  - IQKeyboardManagerSwift (6.5.6)
+  - KissXML (5.3.1):
+    - KissXML/All (= 5.3.1)
+  - KissXML/Additions (5.3.1):
+    - KissXML/Core
+  - KissXML/All (5.3.1):
+    - KissXML/Additions
+    - KissXML/Core
+  - KissXML/Core (5.3.1)
+  - leveldb-library (1.22)
+  - libidn (1.35)
+  - MoEngage-iOS-SDK (6.0.3)
+  - MoEngageInApp (1.0.1):
+    - MoEngage-iOS-SDK (~> 6.0)
+  - MORichNotification (5.0.0)
+  - nanopb (1.30905.0):
+    - nanopb/decode (= 1.30905.0)
+    - nanopb/encode (= 1.30905.0)
+  - nanopb/decode (1.30905.0)
+  - nanopb/encode (1.30905.0)
+  - NVActivityIndicatorView (4.4.1):
+    - NVActivityIndicatorView/Presenter (= 4.4.1)
+  - NVActivityIndicatorView/Presenter (4.4.1)
+  - ObjectMapper (4.2.0)
+  - Pageboy (3.6.2)
+  - Parse (1.18.0):
+    - Parse/Core (= 1.18.0)
+  - Parse/Core (1.18.0):
+    - Bolts/Tasks (= 1.9.1)
+  - PLPlayerKit (3.4.3):
+    - PLPlayerKit/universal (= 3.4.3)
+  - PLPlayerKit/universal (3.4.3)
+  - PopItUp (1.1.0)
+  - PromisesObjC (1.2.10)
+  - Protobuf (3.13.0)
+  - PubNub (4.15.3):
+    - PubNub/Core (= 4.15.3)
+  - PubNub/Core (4.15.3)
+  - Pulley (2.8.0)
+  - Pulsator (0.6.0)
+  - SAConfettiView (0.1.8)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - Shimmer (1.0.2)
+  - SideMenu (6.4.9)
+  - Siren (4.2.2)
+  - SKPhotoBrowser (6.1.0)
+  - Spotlight (1.0.1)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - SVPinView (1.0.9)
+  - SwiftMessages (8.0.2):
+    - SwiftMessages/App (= 8.0.2)
+  - SwiftMessages/App (8.0.2)
+  - SwiftyJSON (4.0.0)
+  - SwiftyStoreKit (0.16.1)
+  - Tabman (2.9.1):
+    - Pageboy (~> 3.6.0)
+  - Toaster (2.2.0)
+  - TPKeyboardAvoiding (1.3.4)
+  - "UITextView+Placeholder (1.4.0)"
+  - XCDYouTubeKit (2.14.1)
+  - XMPPFramework (4.0.0):
+    - XMPPFramework/default (= 4.0.0)
+  - XMPPFramework/default (4.0.0):
+    - CocoaAsyncSocket (~> 7.6)
+    - CocoaLumberjack
+    - KissXML (~> 5.2)
+    - libidn (~> 1.35)
+  - YXWaveView (0.7.0)
+
+DEPENDENCIES:
+  - ActiveLabel
+  - AgoraRtcEngine_iOS
+  - AgoraRtm_iOS
+  - Alamofire
+  - Alamofire-SwiftyJSON
+  - AlamofireImage
+  - AudioPlayerManager
+  - Branch
+  - CountryPickerView
+  - EasyTipView
+  - ExpandableLabel
+  - Fabric
+  - FBSDKCoreKit (~> 5.5.0)
+  - FBSDKLoginKit (~> 5.5.0)
+  - Firebase/Core
+  - Firebase/Crashlytics
+  - Firebase/Database
+  - Firebase/DynamicLinks
+  - Firebase/InAppMessagingDisplay
+  - Firebase/Messaging
+  - Firebase/Performance
+  - Firebase/RemoteConfig
+  - GoogleAnalytics
+  - GoogleIDFASupport
+  - GoogleSignIn
+  - HCSStarRatingView
+  - Instructions (~> 1.3.1)
+  - IQKeyboardManagerSwift
+  - MoEngage-iOS-SDK (~> 6.0.0)
+  - MoEngageInApp (~> 1.0.0)
+  - MORichNotification
+  - NVActivityIndicatorView (~> 4.4.0)
+  - ObjectMapper
+  - Parse
+  - PLPlayerKit (from `https://raw.githubusercontent.com/pili-engineering/PLPlayerKit/master/PLPlayerKit-Universal.podspec`)
+  - PopItUp
+  - PubNub
+  - Pulley
+  - Pulsator
+  - SAConfettiView
+  - SDWebImage
+  - Shimmer
+  - SideMenu
+  - Siren (from `https://github.com/ArtSabintsev/Siren.git`, branch `swift4.2`)
+  - SKPhotoBrowser
+  - Spotlight
+  - SQLite.swift
+  - SVPinView
+  - SwiftMessages
+  - SwiftyStoreKit
+  - Tabman
+  - Toaster
+  - TPKeyboardAvoiding
+  - "UITextView+Placeholder"
+  - XCDYouTubeKit
+  - XMPPFramework (from `https://github.com/robbiehanson/XMPPFramework.git`, branch `master`)
+  - YXWaveView
+
+SPEC REPOS:
+  trunk:
+    - ActiveLabel
+    - AgoraRtcEngine_iOS
+    - AgoraRtm_iOS
+    - Alamofire
+    - Alamofire-SwiftyJSON
+    - AlamofireImage
+    - AppAuth
+    - AudioPlayerManager
+    - Bolts
+    - Branch
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - CountryPickerView
+    - EasyTipView
+    - ExpandableLabel
+    - Fabric
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCrashlytics
+    - FirebaseDatabase
+    - FirebaseDynamicLinks
+    - FirebaseInAppMessagingDisplay
+    - FirebaseInstallations
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebasePerformance
+    - FirebaseRemoteConfig
+    - GoogleAnalytics
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleIDFASupport
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - HCSStarRatingView
+    - Instructions
+    - IQKeyboardManagerSwift
+    - KissXML
+    - leveldb-library
+    - libidn
+    - MoEngage-iOS-SDK
+    - MoEngageInApp
+    - MORichNotification
+    - nanopb
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - Pageboy
+    - Parse
+    - PopItUp
+    - PromisesObjC
+    - Protobuf
+    - PubNub
+    - Pulley
+    - Pulsator
+    - SAConfettiView
+    - SDWebImage
+    - Shimmer
+    - SideMenu
+    - SKPhotoBrowser
+    - Spotlight
+    - SQLite.swift
+    - SVPinView
+    - SwiftMessages
+    - SwiftyJSON
+    - SwiftyStoreKit
+    - Tabman
+    - Toaster
+    - TPKeyboardAvoiding
+    - "UITextView+Placeholder"
+    - XCDYouTubeKit
+    - YXWaveView
+
+EXTERNAL SOURCES:
+  PLPlayerKit:
+    :podspec: https://raw.githubusercontent.com/pili-engineering/PLPlayerKit/master/PLPlayerKit-Universal.podspec
+  Siren:
+    :branch: swift4.2
+    :git: https://github.com/ArtSabintsev/Siren.git
+  XMPPFramework:
+    :branch: master
+    :git: https://github.com/robbiehanson/XMPPFramework.git
+
+CHECKOUT OPTIONS:
+  Siren:
+    :commit: a3c7cfa26d686524bdb7cf0592310a836e53a97c
+    :git: https://github.com/ArtSabintsev/Siren.git
+  XMPPFramework:
+    :commit: 9d625f5c12020a7edd5f533000404a249c8216f7
+    :git: https://github.com/robbiehanson/XMPPFramework.git
+
+SPEC CHECKSUMS:
+  ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
+  AgoraRtcEngine_iOS: 59db1384cef2791af5bcaa8784191a30569bf9e6
+  AgoraRtm_iOS: 1b14a6f89c82ff2f6c82a25d805b3705a83a2d5d
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Alamofire-SwiftyJSON: 2b3649d57dc7bb2880fb8b86f8bb969397666916
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  AudioPlayerManager: 02601ac29abb8efc0043c851ee5f5c79e69d77fa
+  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  Branch: 446aeb832102f56f04edf5fa7cb0a752dc392ca7
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  CocoaLumberjack: bd155f2dd06c0e0b03f876f7a3ee55693122ec94
+  CountryPickerView: 383c09949f7455de9892db7ce3400b10da090150
+  EasyTipView: a92b6edc377b81c5ac18e9fd35d5ee78e9409488
+  ExpandableLabel: c2fab6d27860c572d67134b30522a5917746171d
+  Fabric: ea977e3cd9c20425516d3dafd3bf8c941c51223f
+  FBSDKCoreKit: 7ade9cfea30eef2f6cf105a1aa904f89ea68fb7d
+  FBSDKLoginKit: bb28062f24e79590c44ba03297ca9bea4b6436d2
+  Firebase: 210f41ca352067d83b1ba4fd2e7fb49a0c017397
+  FirebaseABTesting: 8a9d8df3acc2b43f4a22014ddf9f601bca6af699
+  FirebaseAnalytics: a299a86ef70fcc6aa011418bc65a7e101fb9636c
+  FirebaseCore: 9a41e2de78fef10f63cee30ab10e2945266bc1fc
+  FirebaseCoreDiagnostics: 7535fe695737f8c5b350584292a70b7f8ff0357b
+  FirebaseCrashlytics: 859918905322e8816d2b5ab7fe54bf5a0c84d21c
+  FirebaseDatabase: d85b47213273708e48c972012b39105f76229588
+  FirebaseDynamicLinks: 9a77759e598e3a8fd45124bd040c5c03e52174d5
+  FirebaseInAppMessagingDisplay: b55300a5353ed570ee18e7be6d853feccb17e4aa
+  FirebaseInstallations: 45f9d44d3a8d6f780fa337ee8987dad87210fcbc
+  FirebaseInstanceID: c4ad474b87787afd27d09541800620993b457d6f
+  FirebaseMessaging: 942cfe05b4f53c95ab8959395ca35c200398b2f0
+  FirebasePerformance: 269607f1dcf37bb1f21e3b3ae0ab5b2691644c54
+  FirebaseRemoteConfig: e40f9e084658210c4d9c341cfa9f6cab6ad4f67e
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  GoogleAppMeasurement: 3def7652b1f5b5a576178dc332e2a36a260fbef6
+  GoogleDataTransport: 672fb0ce96fe7f7f31d43672fca62ad2c9c86f7b
+  GoogleIDFASupport: aaf8c10bd429abb1c15349d5252244f5eda8ead1
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GoogleToolboxForMac: 800648f8b3127618c1b59c7f97684427630c5ea3
+  GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
+  GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  Instructions: 192615408620838c442a526c4a2961ce3d42b6aa
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
+  leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
+  libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
+  MoEngage-iOS-SDK: bbc3530189df3f5b12a328bec2c714c6632171ef
+  MoEngageInApp: 719c2c31b6429a670f17e37afc0b2d23744f8f9e
+  MORichNotification: abf1f1aaed3a9366dc8e966c55652bff7716b3b8
+  nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
+  NVActivityIndicatorView: f0a6b0ed2973d9544da268f4eb76696f0a9577b0
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  Pageboy: cf121b9dd48c63f3f281b2a9ec93d02e0f23879b
+  Parse: 79bdda34fdb7eb2a707a43a951c8aae236cb3e34
+  PLPlayerKit: 5eecac081fbf4dc88a142887f82c4095d9095887
+  PopItUp: dddf67d4c4a53ec1573f22d09cff305b01eeeaa1
+  PromisesObjC: b14b1c6b68e306650688599de8a45e49fae81151
+  Protobuf: 3dac39b34a08151c6d949560efe3f86134a3f748
+  PubNub: deb6922dbfae192d1a5f5f89485ab8b4bffe7954
+  Pulley: 81301031e9b08c7b240fa47e8b5d76e00bb05530
+  Pulsator: eb5a9f9be4bdcbd19903984c65deca6aabe50a17
+  SAConfettiView: c87031a2280659261b730fce3669fb10e73636ee
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  SideMenu: 8ef57a3cfc024a2d3fc1c036c7fe98537baec9e0
+  Siren: b636a49628049cb19af6fc28ac344cf36f2186f8
+  SKPhotoBrowser: 343de95d89dc7913763c5dda243cc6e606e4a168
+  Spotlight: 740b52bb03605a6ed2a435ca0cefac6543275a7e
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  SVPinView: 3dd47f5cd5ee67520ab1319a780cc0664735fafe
+  SwiftMessages: 633304165351b8e3dcbb81a71f8efcd86f9c1669
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+  Tabman: 085d89c65be9e883629bdaf5b1453a6397e57846
+  Toaster: c1a81b376edcc2470157b4d1ee1e9341d3b96455
+  TPKeyboardAvoiding: 7c2187e2338052b2c5be4a8052f297fdb124e261
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+  XCDYouTubeKit: 5d50bbacdd9fedf26fb578bab901d946ff3d064c
+  XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
+  YXWaveView: 51eba8108c7743ebbaaa93504597577cfe4f71b5
+
+PODFILE CHECKSUM: baeb348ddcc82ec2b7c916bc2661ae71f03bd025
+
+COCOAPODS: 1.10.1

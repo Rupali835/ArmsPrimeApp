@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="PHTablePlaceholder" customModule="Producer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kfi-IH-1Qb">
+                    <rect key="frame" x="40" y="242.5" width="240" height="83.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Igg-fR-iZY">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="41"/>
+                            <string key="text">Placeholder Title
+fd</string>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wR9-oc-ulj">
+                            <rect key="frame" x="0.0" y="45" width="240" height="38.5"/>
+                            <string key="text">Description label esfssfsd
+desfsdsfsf</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="Igg-fR-iZY" firstAttribute="leading" secondItem="Kfi-IH-1Qb" secondAttribute="leading" id="1Gp-tH-vM9"/>
+                        <constraint firstAttribute="trailing" secondItem="wR9-oc-ulj" secondAttribute="trailing" id="6ia-0M-jPH"/>
+                        <constraint firstAttribute="bottom" secondItem="wR9-oc-ulj" secondAttribute="bottom" id="Nhf-Gp-9rD"/>
+                        <constraint firstItem="Igg-fR-iZY" firstAttribute="top" secondItem="Kfi-IH-1Qb" secondAttribute="top" id="PVT-ur-fZF"/>
+                        <constraint firstItem="wR9-oc-ulj" firstAttribute="leading" secondItem="Kfi-IH-1Qb" secondAttribute="leading" id="Yea-0A-7Zm"/>
+                        <constraint firstItem="wR9-oc-ulj" firstAttribute="top" secondItem="Igg-fR-iZY" secondAttribute="bottom" constant="4" id="gfT-Mq-FSI"/>
+                        <constraint firstAttribute="trailing" secondItem="Igg-fR-iZY" secondAttribute="trailing" id="h0a-ee-Vzc"/>
+                    </constraints>
+                </view>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="U0c-9p-72D">
+                    <rect key="frame" x="150" y="274" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="U0c-9p-72D" firstAttribute="centerY" secondItem="Kfi-IH-1Qb" secondAttribute="centerY" id="0tC-MN-Tw1"/>
+                <constraint firstAttribute="trailing" secondItem="Kfi-IH-1Qb" secondAttribute="trailing" constant="40" id="4co-Cn-i1J"/>
+                <constraint firstItem="Kfi-IH-1Qb" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="GqJ-sS-WLB"/>
+                <constraint firstItem="Kfi-IH-1Qb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="ker-4b-kjy"/>
+                <constraint firstItem="Kfi-IH-1Qb" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="lxr-uB-Ai7"/>
+                <constraint firstItem="U0c-9p-72D" firstAttribute="centerX" secondItem="Kfi-IH-1Qb" secondAttribute="centerX" id="zwu-ks-VAs"/>
+            </constraints>
+            <connections>
+                <outlet property="activityLoader" destination="U0c-9p-72D" id="f37-r4-Cit"/>
+                <outlet property="lblDetail" destination="wR9-oc-ulj" id="BXo-i3-H1m"/>
+                <outlet property="lblTitle" destination="Igg-fR-iZY" id="gGJ-Tm-NMl"/>
+                <outlet property="viewContainer" destination="Kfi-IH-1Qb" id="jCs-fR-5KF"/>
+            </connections>
+            <point key="canvasLocation" x="-656" y="81"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VGRequestDetailsTableViewCell" rowHeight="419" id="MQA-ji-4UU" customClass="VGRequestDetailsTableViewCell" customModule="AnveshiJain" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="419"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MQA-ji-4UU" id="YRK-qW-OnX">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="419"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="bld-SN-NJh">
+                        <rect key="frame" x="20" y="20" width="374" height="389"/>
+                        <subviews>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your request will be submitted in 7-8 days. You can check your booking under My Greeting section." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfr-9i-HdN">
+                                <rect key="frame" x="0.0" y="0.0" width="757.5" height="0.0"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ORDER ID - 234e9034914" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5a3-vh-lGs" customClass="CopyableLabel" customModule="AnveshiJain" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="203" height="20.5"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="SmE-GR-ZlZ">
+                                <rect key="frame" x="0.0" y="28" width="148.5" height="20"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zV8-vu-Nl0">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="QRF-rj-Wnu"/>
+                                            <constraint firstAttribute="width" constant="20" id="yOh-5t-owZ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Happy Birthday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i1C-eH-Ky5">
+                                        <rect key="frame" x="30" y="0.0" width="118.5" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="emC-MD-Pqf">
+                                <rect key="frame" x="0.0" y="35.5" width="126" height="237"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VG_calendar" translatesAutoresizingMaskIntoConstraints="NO" id="pqF-5g-NjE">
+                                        <rect key="frame" x="0.0" y="108.5" width="20" height="20"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="MQk-Xi-p5p"/>
+                                            <constraint firstAttribute="height" constant="20" id="Zl9-wY-fRe"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                                <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15 July 2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCh-Nh-nvU">
+                                        <rect key="frame" x="30" y="108.5" width="96" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="jOH-ZG-FKc">
+                                <rect key="frame" x="0.0" y="280" width="374" height="0.0"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To - Amu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fst-ZT-x58">
+                                        <rect key="frame" x="0.0" y="0.0" width="187" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wife" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPV-SB-cUE">
+                                        <rect key="frame" x="187" y="0.0" width="187" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mos-Qf-n0i">
+                                <rect key="frame" x="0.0" y="287.5" width="374" height="101.5"/>
+                                <string key="text">"As you blow the candles on your birthday cake, I want to tell you what a wonderful wife you make. Without you in my life, my heart would have bled. With you, I look forward to a wonderful life ahead. Happy birthday, darling."</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From - Raghav" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ql4-kJ-9ul">
+                                <rect key="frame" x="0.0" y="389" width="113" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="jOH-ZG-FKc" firstAttribute="leading" secondItem="bld-SN-NJh" secondAttribute="leading" id="bwj-pW-gNR"/>
+                            <constraint firstAttribute="trailing" secondItem="jOH-ZG-FKc" secondAttribute="trailing" id="rjO-SL-UXJ"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="bld-SN-NJh" secondAttribute="bottom" constant="10" id="AYS-uP-l7B"/>
+                    <constraint firstItem="bld-SN-NJh" firstAttribute="top" secondItem="YRK-qW-OnX" secondAttribute="top" constant="20" id="Eaz-ti-VJh"/>
+                    <constraint firstItem="bld-SN-NJh" firstAttribute="leading" secondItem="YRK-qW-OnX" secondAttribute="leading" constant="20" id="fDz-rV-yVL"/>
+                    <constraint firstAttribute="trailing" secondItem="bld-SN-NJh" secondAttribute="trailing" constant="20" id="hbA-Yg-7fN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="calendarImage" destination="pqF-5g-NjE" id="N4z-3L-CYe"/>
+                <outlet property="dateLabel" destination="kCh-Nh-nvU" id="sVu-ZH-TyQ"/>
+                <outlet property="fromLabel" destination="ql4-kJ-9ul" id="260-Ag-pPp"/>
+                <outlet property="greetingLabel" destination="Mos-Qf-n0i" id="knO-fu-b61"/>
+                <outlet property="occasionImage" destination="zV8-vu-Nl0" id="cXe-Ld-rPF"/>
+                <outlet property="occasionLabel" destination="i1C-eH-Ky5" id="pab-UD-fWD"/>
+                <outlet property="orderIDLabel" destination="5a3-vh-lGs" id="MYF-B8-VC1"/>
+                <outlet property="orderInstructionLabel" destination="cfr-9i-HdN" id="bW0-Te-XT6"/>
+                <outlet property="relationLabel" destination="UPV-SB-cUE" id="d9q-zL-MzI"/>
+                <outlet property="toLabel" destination="fst-ZT-x58" id="Sn9-5r-6JY"/>
+            </connections>
+            <point key="canvasLocation" x="150.72463768115944" y="163.05803571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="VG_calendar" width="30" height="30"/>
+    </resources>
+</document>

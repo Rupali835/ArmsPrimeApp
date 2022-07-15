@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-SemiBold-slnt.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoCallRequestTableCell" rowHeight="118" id="9z0-rL-Mha" customClass="VideoCallRequestTableCell" customModule="Ankita_Dave" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="118"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9z0-rL-Mha" id="ejC-bQ-KAn">
+                <rect key="frame" x="0.0" y="0.0" width="365" height="118"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="fV1-me-eEI">
+                        <rect key="frame" x="0.0" y="10" width="365" height="98"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="Eik-z1-bgh">
+                            <size key="itemSize" width="365" height="95"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="VideoCallRequestCollectionCell" id="qCu-k4-5V1" customClass="VideoCallRequestCollectionCell" customModule="Ankita_Dave" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="365" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ds6-fD-ir2">
+                                    <rect key="frame" x="0.0" y="0.0" width="365" height="98"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CUO-vs-aaz">
+                                            <rect key="frame" x="10" y="0.0" width="345" height="98"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newbell" translatesAutoresizingMaskIntoConstraints="NO" id="2dN-sN-vV1">
+                                                    <rect key="frame" x="14" y="12" width="15" height="15"/>
+                                                    <color key="tintColor" name="tabGray"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="15" id="JC0-ec-UbV"/>
+                                                        <constraint firstAttribute="width" constant="15" id="pq3-KM-88q"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="imgTintColor">
+                                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5th Aug 2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phe-yO-qAO">
+                                                    <rect key="frame" x="35" y="13" width="66" height="13"/>
+                                                    <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="11"/>
+                                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Call @ 9:30 PM," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqo-Uw-noD">
+                                                    <rect key="frame" x="14" y="37" width="138.5" height="21.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21.666666666666671" id="3vs-9c-obb"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="with Ankita Dave" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jd2-O1-a7J">
+                                                    <rect key="frame" x="14" y="64.5" width="105" height="21"/>
+                                                    <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaK-R6-5Zk">
+                                                    <rect key="frame" x="209" y="32" width="100" height="34"/>
+                                                    <color key="backgroundColor" name="AJYellow"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="100" id="Er2-1D-PKz"/>
+                                                        <constraint firstAttribute="height" constant="34" id="kBd-S7-Top"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="10"/>
+                                                    <state key="normal" title="JOIN CALL">
+                                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isBackgroundYellow" value="YES"/>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="8"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="2dN-sN-vV1" firstAttribute="top" secondItem="CUO-vs-aaz" secondAttribute="top" constant="12" id="0P3-Xc-r8x"/>
+                                                <constraint firstItem="aaK-R6-5Zk" firstAttribute="centerY" secondItem="CUO-vs-aaz" secondAttribute="centerY" id="7TB-6J-nrB"/>
+                                                <constraint firstItem="lqo-Uw-noD" firstAttribute="leading" secondItem="2dN-sN-vV1" secondAttribute="leading" id="FVc-lC-HEb"/>
+                                                <constraint firstAttribute="trailing" secondItem="aaK-R6-5Zk" secondAttribute="trailing" constant="36" id="Hjh-64-PoX"/>
+                                                <constraint firstItem="phe-yO-qAO" firstAttribute="centerY" secondItem="2dN-sN-vV1" secondAttribute="centerY" id="bQU-xT-IvN"/>
+                                                <constraint firstAttribute="bottom" secondItem="Jd2-O1-a7J" secondAttribute="bottom" constant="12.5" id="hMD-gE-eoC"/>
+                                                <constraint firstItem="lqo-Uw-noD" firstAttribute="top" secondItem="2dN-sN-vV1" secondAttribute="bottom" constant="10" id="j24-I9-DgV"/>
+                                                <constraint firstItem="phe-yO-qAO" firstAttribute="leading" secondItem="2dN-sN-vV1" secondAttribute="trailing" constant="6" id="pCO-eI-Jh4"/>
+                                                <constraint firstItem="2dN-sN-vV1" firstAttribute="leading" secondItem="CUO-vs-aaz" secondAttribute="leading" constant="14" id="rqN-sR-HGD"/>
+                                                <constraint firstItem="Jd2-O1-a7J" firstAttribute="top" secondItem="lqo-Uw-noD" secondAttribute="bottom" constant="6" id="rqw-O2-PL3"/>
+                                                <constraint firstItem="Jd2-O1-a7J" firstAttribute="leading" secondItem="lqo-Uw-noD" secondAttribute="leading" id="vaI-fp-dho"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="CUO-vs-aaz" secondAttribute="bottom" id="2ll-RF-ukB"/>
+                                        <constraint firstItem="CUO-vs-aaz" firstAttribute="top" secondItem="ds6-fD-ir2" secondAttribute="top" id="SNQ-VN-UYE"/>
+                                        <constraint firstItem="CUO-vs-aaz" firstAttribute="leading" secondItem="ds6-fD-ir2" secondAttribute="leading" constant="10" id="TGO-I6-lLA"/>
+                                        <constraint firstAttribute="trailing" secondItem="CUO-vs-aaz" secondAttribute="trailing" constant="10" id="yaJ-9E-kVz"/>
+                                    </constraints>
+                                </collectionViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="customSize" width="365" height="98"/>
+                                <connections>
+                                    <outlet property="btnJoin" destination="aaK-R6-5Zk" id="Jfm-ae-7kR"/>
+                                    <outlet property="lblArtistName" destination="Jd2-O1-a7J" id="LW1-Ae-8uT"/>
+                                    <outlet property="lblDate" destination="phe-yO-qAO" id="GLC-Ja-aHp"/>
+                                    <outlet property="lblTime" destination="lqo-Uw-noD" id="49e-RB-6an"/>
+                                    <outlet property="viewContainer" destination="CUO-vs-aaz" id="KvB-8s-bL5"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                    </collectionView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="fV1-me-eEI" secondAttribute="bottom" constant="10" id="0De-Ze-akW"/>
+                    <constraint firstItem="fV1-me-eEI" firstAttribute="leading" secondItem="ejC-bQ-KAn" secondAttribute="leading" id="7BT-vZ-Ok5"/>
+                    <constraint firstAttribute="trailing" secondItem="fV1-me-eEI" secondAttribute="trailing" id="B32-8g-mDX"/>
+                    <constraint firstItem="fV1-me-eEI" firstAttribute="top" secondItem="ejC-bQ-KAn" secondAttribute="top" constant="10" id="NcS-4n-gp0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <point key="canvasLocation" x="-111" y="-45"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="newbell" width="30" height="37.5"/>
+        <namedColor name="AJYellow">
+            <color red="0.83921568627450982" green="0.66274509803921566" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="tabGray">
+            <color red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
